@@ -163,22 +163,22 @@ const RECORDS = [
     tracks: [
       {
         name: "云逛街 in UK",
-        url: "https://www.xiaohongshu.com/discovery/item/69a80a500000000015020545?source=webshare&xhsshare=pc_web&xsec_token=ABNjlV8kIibmLTsvu25Cc0Xc4hYjZPCLy3eSfRoTRPS_o=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/2IEmZccaG15",
         direct: true,
       },
       {
         name: "面霜测评",
-        url: "https://www.xiaohongshu.com/discovery/item/696f5aad00000000210324f7?source=webshare&xhsshare=pc_web&xsec_token=AB_gF66pZ2TYYng10L2_2eCMiArH9_KrMSHq_fIz84heA=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/6iW3lyUVP6G",
         direct: true,
       },
       {
         name: "昔又大排灯",
-        url: "https://www.xiaohongshu.com/discovery/item/69708ea4000000000c0348a9?source=webshare&xhsshare=pc_web&xsec_token=AB2v0Yb8vrs2DuO6DgeN88BvXJDvEXBwYb9uUF1OM8t20=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/68sZzVrmdsY",
         direct: true,
       },
       {
         name: "眼周扫「黑」",
-        url: "https://www.xiaohongshu.com/discovery/item/69675988000000000a03fc12?source=webshare&xhsshare=pc_web&xsec_token=ABLq5HYC0cl_nm9MyoEdwDesk25jYGDTm21mi5Mwy86ZA=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/7Sh6XVigxpq",
         direct: true,
       },
     ],
@@ -204,12 +204,12 @@ const RECORDS = [
     tracks: [
       {
         name: "南宁 Vlog Day1",
-        url: "https://www.xiaohongshu.com/discovery/item/684969b8000000002300d683?source=webshare&xhsshare=pc_web&xsec_token=ABMjP-DLq30UEHcYVeYFQhHLgou2zxm9CLhhxXLmLnTSI=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/8YgLwP4VMwc",
         direct: true,
       },
       {
         name: "南宁 Vlog Day2",
-        url: "https://www.xiaohongshu.com/discovery/item/684fdf26000000000303f348?source=webshare&xhsshare=pc_web&xsec_token=ABYaeAdmLu4mxJGtNHxOnk-BcrkRajL5VYBUJSq3BVU44=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/8VPjt7MMeM",
         direct: true,
       },
       {

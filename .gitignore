@@ -1,0 +1,6 @@
+.workbuddy/
+.DS_Store
+node_modules/
+.venv/
+*.compressed.mp4
+*.log

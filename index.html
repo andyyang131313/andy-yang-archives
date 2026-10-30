@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ANDY YANG — 杨程安 Andy 的个人作品集档案馆。产品营销 / 新媒体运营 / 内容编导 / 广告策划。" />
+  <!-- 分享卡片：og:image 待部署后用绝对 URL 替换 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ANDY YANG · 杨程安 Andy — My archives &amp; Me" />
+  <meta property="og:description" content="个人作品集档案馆 · 产品营销 / 新媒体运营 / 内容编导 / 广告策划" />
+  <meta property="og:image" content="assets/og-cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <title>ANDY YANG · 杨程安 Andy — My archives &amp; Me</title>
+  <link rel="stylesheet" href="css/style.css?v=20261030o" />
+</head>
+<body>
+  <a class="skip-link" href="#works">跳转到我的作品</a>
+
+  <!-- 纸张肌理 -->
+  <div class="paper" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a class="nav__logo" href="#top">ANDY YANG</a>
+    <nav class="nav__links" aria-label="主导航">
+      <a href="#top">首页 <span>HOME</span></a>
+      <a href="#about">关于我 <span>ABOUT</span></a>
+      <a href="#skills">工作技能 <span>SKILLS</span></a>
+      <a href="#works">我的作品 <span>DISCOGRAPHY</span></a>
+      <a href="#experience">经历与能力 <span>EXPERIENCE</span></a>
+      <a href="#inspiration">审美与灵感 <span>NOW SPINNING</span></a>
+      <a href="#contact" class="nav__cta">联系我 <span>CONTACT</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ 1. HERO：全幅生活照 + 海报式色块 ============ -->
+    <section class="hero" aria-label="首页">
+      <div class="hero__photo">
+        <img class="hero__photo-img" src="assets/hero-photo.jpg" alt="Andy 的生活照：明亮天空下，红蓝白飞机装置前举起相机拍照" fetchpriority="high" />
+      </div>
+      <div class="hero__panel">
+        <p class="hero__kicker">A PERSONAL ARCHIVE OF MARKETING &amp; STORIES</p>
+        <h1 class="hero__title">ANDY<br />YANG</h1>
+        <p class="hero__subtitle">MY ARCHIVES &amp; ME</p>
+        <ul class="hero__tags" aria-label="身份标签">
+          <li>产品营销</li>
+          <li>新媒体运营</li>
+          <li>内容编导</li>
+          <li>广告策划</li>
+        </ul>
+        <a class="btn btn--hero" href="#works">进入作品区 ↓</a>
+      </div>
+    </section>
+
+    <!-- ============ 2. ABOUT ============ -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="section__head">
+        <p class="section__index">01</p>
+        <h2 class="section__title" id="about-title">关于我 <span class="en-title">ABOUT</span></h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__profile">
+          <div class="about__card">
+            <p class="about__name">杨程安 <span>Andy</span></p>
+            <dl class="about__meta">
+              <div><dt>Base</dt><dd>上海</dd></div>
+              <div><dt>身份</dt><dd>内容创作 / 新媒体运营 / 编导</dd></div>
+              <div><dt>教育</dt><dd>杭州电子科技大学 · 传播学<br /><span class="dim">2023.09 – 2027.06</span></dd></div>
+              <div><dt>兴趣</dt><dd>独立音乐 · 唱片收藏 · 胶片摄影 · 写作 · 看展</dd></div>
+            </dl>
+          </div>
+          <p class="about__bio">
+            受独立音乐与现代艺术影响，擅长在内容运营中捕捉网感，在视觉表达中守住审美；希望成为既能洞察市场需求，又能驾驭镜头美学的传播从业者。
+          </p>
+        </div>
+        <div class="about__skills" id="skills">
+          <h3 class="about__skills-title">工作技能 <span>SKILLS</span></h3>
+          <ul class="skills-wall" id="skills-wall"><!-- JS 渲染 --></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. WORKS / 我的作品：方形封面横向铺开 ============ -->
+    <section class="works" id="works" aria-labelledby="works-title">
+      <div class="works__head section__head">
+        <p class="section__index">02</p>
+        <h2 class="section__title" id="works-title">我的作品 <span class="en-title">DISCOGRAPHY</span></h2>
+        <p class="section__desc">六段经历，六张封面。点击封面，展开完整作品档案。</p>
+      </div>
+      <div class="shelf" id="record-shelf" role="list" aria-label="项目封面列表">
+        <!-- JS 渲染封面 -->
+      </div>
+      <p class="shelf-hint" aria-hidden="true">← 滑动查看我的作品档案 →</p>
+    </section>
+
+    <!-- ============ 4. EXPERIENCE ============ -->
+    <section class="experience section band band--blue" id="experience" aria-labelledby="exp-title">
+      <div class="section__head">
+        <p class="section__index">03</p>
+        <h2 class="section__title" id="exp-title">经历与能力 <span class="en-title">EXPERIENCE</span></h2>
+      </div>
+      <div class="exp__grid">
+        <ol class="exp__timeline" id="exp-timeline"><!-- JS 渲染 --></ol>
+        <div class="exp__right">
+          <div class="exp__chain">
+            <h3 class="exp__chain-title">能力链路 <span>WORKFLOW</span></h3>
+            <ol class="exp__steps">
+              <li>洞察热点</li><li>选题策划</li><li>文案 / 脚本</li><li>拍摄 / 制作</li>
+              <li>发布运营</li><li>数据复盘</li><li>商业转化</li>
+            </ol>
+          </div>
+          <div class="exp__metrics" id="exp-metrics"><!-- JS 渲染 --></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. INSPIRATION ============ -->
+    <section class="inspiration section" id="inspiration" aria-labelledby="insp-title">
+      <div class="section__head">
+        <p class="section__index">04</p>
+        <h2 class="section__title" id="insp-title">个人审美与灵感 <span class="en-title">NOW SPINNING</span></h2>
+        <p class="section__desc">流行文化观察、生活方式洞察、摄影叙事，与品牌社群温度之间的共振。</p>
+      </div>
+      <div class="insp__grid" id="insp-grid"><!-- JS 渲染 --></div>
+    </section>
+
+    <!-- ============ 6. CONTACT ============ -->
+    <section class="contact section band band--yellow" id="contact" aria-labelledby="contact-title">
+      <div class="section__head">
+        <p class="section__index">05</p>
+        <h2 class="section__title" id="contact-title">联系我 <span class="en-title">CONTACT</span></h2>
+      </div>
+      <p class="contact__line">&ldquo;Let&rsquo;s make something worth replaying.&rdquo;</p>
+      <div class="contact__links" id="contact-links"><!-- JS 渲染 --></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Andy Yang / Designed as a living archive.</p>
+  </footer>
+
+  <!-- ============ 作品浮窗：封面 + 彩胶并列 ============ -->
+  <div class="modal" id="record-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal__overlay" data-close></div>
+    <article class="modal__panel">
+      <button class="modal__close" type="button" aria-label="关闭" data-close>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></svg>
+      </button>
+      <div class="modal__media">
+        <figure class="modal__cover-wrap">
+          <img class="modal__cover" id="modal-cover" src="" alt="" loading="lazy" />
+        </figure>
+        <div class="modal__disc" id="modal-disc" aria-hidden="true">
+          <div class="modal__disc-label" id="modal-disc-label"></div>
+        </div>
+      </div>
+      <div class="modal__body">
+        <p class="modal__period" id="modal-period"></p>
+        <h3 class="modal__title" id="modal-title"></h3>
+        <p class="modal__subtitle" id="modal-subtitle"></p>
+        <p class="modal__role" id="modal-role"></p>
+        <blockquote class="modal__intro" id="modal-intro"></blockquote>
+        <p class="modal__summary" id="modal-summary"></p>
+
+        <h4 class="modal__h" id="modal-duties-title">工作内容 <span>DUTIES</span></h4>
+        <ul class="modal__duties" id="modal-duties"></ul>
+
+        <h4 class="modal__h">成果 <span>RESULTS</span></h4>
+        <ul class="modal__results" id="modal-results"></ul>
+
+        <h4 class="modal__h modal__h--tracks">曲目 <span>TRACKS</span></h4>
+        <ol class="tracks" id="modal-tracks"></ol>
+
+        <div class="modal__tags" id="modal-tags"></div>
+        <div class="modal__links" id="modal-links"></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ 作品详情弹窗（第二层，叠于项目详情弹窗之上） ============ -->
+  <div class="wmodal" id="work-modal" role="dialog" aria-modal="true" aria-labelledby="wmodal-title" hidden>
+    <div class="wmodal__overlay" data-wclose></div>
+    <div class="wmodal__panel">
+      <header class="wmodal__head">
+        <div class="wmodal__heading">
+          <p class="wmodal__project" id="wmodal-project"></p>
+          <h3 class="wmodal__title" id="wmodal-title"></h3>
+        </div>
+        <button class="wmodal__close" type="button" aria-label="关闭作品详情" data-wclose>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></svg>
+        </button>
+      </header>
+      <div class="wmodal__body" id="wmodal-body"><!-- JS 渲染视频/图片/链接 --></div>
+    </div>
+  </div>
+
+  <script src="js/data.js?v=20261030o"></script>
+  <script src="js/main.js?v=20261030o"></script>
+</body>
+</html>

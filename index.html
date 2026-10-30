@@ -2,6 +2,14 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
+  <script>
+    /* 以 http 打开时自动跳转 https，避免地址栏显示不安全（本地预览除外） */
+    (function () {
+      if (location.protocol === "http:" && location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+        location.replace("https://" + location.host + location.pathname + location.search + location.hash);
+      }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="ANDY YANG — 杨程安 Andy 的个人作品集档案馆。产品营销 / 新媒体运营 / 内容编导 / 广告策划。" />
   <!-- 分享卡片：og:image / og:url 均为线上绝对地址 -->
@@ -16,7 +24,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <title>ANDY YANG · 杨程安 Andy — My archives &amp; Me</title>
-  <link rel="stylesheet" href="css/style.css?v=20261030r" />
+  <link rel="stylesheet" href="css/style.css?v=20261030s" />
 </head>
 <body>
   <a class="skip-link" href="#works">跳转到我的作品</a>
@@ -200,7 +208,7 @@
     </div>
   </div>
 
-  <script src="js/data.js?v=20261030r"></script>
-  <script src="js/main.js?v=20261030r"></script>
+  <script src="js/data.js?v=20261030s"></script>
+  <script src="js/main.js?v=20261030s"></script>
 </body>
 </html>

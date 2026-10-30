@@ -103,37 +103,37 @@ const RECORDS = [
     tracks: [
       {
         name: "寻「爱」图文",
-        url: "https://www.xiaohongshu.com/discovery/item/6a3d2091000000002201b0e8?source=webshare&xhsshare=pc_web&xsec_token=AB47rcPQ7_w5YckcB3gD_5LxBGgc6aahA3jpOxoiPgOGE=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/ZgC9w1WDlX",
         direct: true,
       },
       {
         name: "寻「爱」预告",
-        url: "https://www.xiaohongshu.com/discovery/item/6a37c94a000000002100a02f?source=webshare&xhsshare=pc_web&xsec_token=ABk7HiHx_tBP7fAhbSQ6XoHPYgjDxNMd0AlbV5FnYeR5A=&xsec_source=pc_share87",
+        url: "https://xhslink.cn/o/tpzPWpzsez",
         direct: true,
       },
       {
         name: "寻「爱」视频",
-        url: "https://www.xiaohongshu.com/discovery/item/6a38b864000000001101dcf4?source=webshare&xhsshare=pc_web&xsec_token=ABkCn7ifxjRroAQf0Iw7tbGnV1NWRa9mL3jpdJ76qFBHE=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/6WYKXtU9Eo9",
         direct: true,
       },
       {
         name: "云游 Q&A 之妆后修护",
-        url: "https://www.xiaohongshu.com/discovery/item/6a4770db000000001101164f?source=webshare&xhsshare=pc_web&xsec_token=ABe85-X3a1D0pRO88UtcU1V1eCZ5gqAg8qghmnykL00rs=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/AeCXaXLp1Kf",
         direct: true,
       },
       {
         name: "云游 Q&A 之旅途减负",
-        url: "https://www.xiaohongshu.com/discovery/item/6a47979200000000080012a2?source=webshare&xhsshare=pc_web&xsec_token=ABe85-X3a1D0pRO88UtcU1V2Sey-srx38mLRzUlhfYjH0=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/2F1JSB6E277",
         direct: true,
       },
       {
         name: "云游 Q&A 之至爱呵护",
-        url: "https://www.xiaohongshu.com/discovery/item/6a464226000000001102cf16?source=webshare&xhsshare=pc_web&xsec_token=ABvYqu_L7TMAC151-oNqmRRQqN0Bq1I78rbBq5FEyw8I8=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/VQ2WfQPPo9",
         direct: true,
       },
       {
         name: "征集薇朋友",
-        url: "https://www.xiaohongshu.com/discovery/item/6a439f0a000000000f017bd6?source=webshare&xhsshare=pc_web&xsec_token=AB-8kx3OTxBIrOZTr9SgCuXoPjcjEILuKbGKLJL6KPQRo=&xsec_source=pc_share",
+        url: "https://xhslink.cn/o/3p26xyF0LRL",
         direct: true,
       },
     ],
